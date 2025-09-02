@@ -4,6 +4,7 @@
     box-sizing: border-box;
     list-style: none;
     font-family: 'Roboto', sans-serif;
+
 }
 
 body {
@@ -14,7 +15,6 @@ body {
 }
 
 header {
-
     position: fixed;
     width: 80vw;
     top: -50px;
@@ -36,6 +36,11 @@ header {
             grid-template-columns: repeat(3, 200px);
         }
     }
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000;
 }
 
 section {
@@ -64,8 +69,6 @@ section {
                 & img {
                     width: 100%;
                 }
-
-
 
             }
 
@@ -101,6 +104,7 @@ section {
                     border-radius: 30px;
                     height: 35px;
                     width: 120px;
+                    font-size: 1.3rem;
                     text-transform: uppercase;
                     border: 2px solid #001aff;
                     background-color: #ffffff;
@@ -108,6 +112,7 @@ section {
                     cursor: pointer;
                     font-weight: bold;
                     font-family: 'League Gothic', sans-serif;
+
                 }
             }
         }
